@@ -6,7 +6,7 @@ namespace: prd
 images:
 - name: sample-app
   newName: 202957155516.dkr.ecr.ap-northeast-1.amazonaws.com/toyamagu-cicd-sample
-  newTag: main-8a3ba495c8bf5a161c3c6ab989a39e2b6678b533
+  newTag: main-6b86b6c1eaf9f51717814187850dae40bf7e37ec
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
