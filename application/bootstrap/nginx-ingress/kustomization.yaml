@@ -1,0 +1,7 @@
+helmCharts:
+- name: nginx-ingress
+  includeCRDs: true
+  releaseName: nginx-ingress
+  version: 0.14.0
+  repo: https://helm.nginx.com/stable
+  valuesFile: "values.yaml"

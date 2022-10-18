@@ -1,0 +1,12 @@
+apiVersion: k8s.nginx.org/v1
+kind: VirtualServerRoute
+metadata:
+  name: sample-app
+spec:
+  host: sample-app.altland-simons.xyz
+  subroutes:
+  - path: /prd
+    action:
+      proxy: 
+        upstream: sample-app
+        rewritePath: /
