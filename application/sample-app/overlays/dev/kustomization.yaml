@@ -6,7 +6,7 @@ namespace: dev
 images:
 - name: sample-app
   newName: 202957155516.dkr.ecr.ap-northeast-1.amazonaws.com/toyamagu-cicd-sample
-  newTag: dev-87b944739df7c5c274d62add23d9d8281b369d18
+  newTag: dev-538ed5d91704d47b60b311eb03d16ade2065a7ac
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
