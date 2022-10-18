@@ -1,0 +1,10 @@
+apiVersion: k8s.nginx.org/v1
+kind: VirtualServer
+metadata:
+  name: argocd
+  namespace: nginx-ingress
+spec:
+  host: argocd.altland-simons.xyz
+  routes:
+  - path: /
+    route: argocd/argocd
